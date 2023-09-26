@@ -24,7 +24,7 @@ public class LionTest {
     String sex;
     boolean hasMane;
 
-    @Parameterized.Parameters(name = "Пол {0}, Есть ли грива {1}")
+    @Parameterized.Parameters(name = "Пол льва {0}, Есть ли грива {1}")
     public static Object[][] getTestData() {
         return new Object[][]{
                 {"Самец", true},
